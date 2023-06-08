@@ -1,0 +1,53 @@
+*
+{
+    background-size: cover;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    height: 760px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.Home > .container
+{
+    animation: mymove 5s infinite;
+    margin-left: 400px;
+    margin-right: 400px;
+    border:1px solid;
+    height: 700px;
+    width:700px;
+    background-color: rgb(125, 18, 255);
+}
+@keyframes mymove{
+    50% {box-shadow: 10px 20px 30px rgb(164, 44, 220);} 
+}
+
+/*.tom
+{
+    position:relative;
+    left:1200px;
+    bottom: 200px;
+}*/
+.Home > .text
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Home > button
+{   display: inline-block;
+    position: relative;
+    bottom:250px;
+    left: 10px;
+    justify-content: end;
+    color: rgb(179, 0, 255);
+    background-color: rgb(252, 120, 234);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
